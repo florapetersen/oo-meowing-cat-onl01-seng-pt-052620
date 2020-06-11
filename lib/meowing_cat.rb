@@ -1,3 +1,5 @@
 class Cat
   maru = Cat.new
-end 
+  attr_reader :name
+  attr_writer :name
+end
